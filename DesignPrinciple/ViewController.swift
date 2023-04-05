@@ -26,5 +26,11 @@ class ViewController: UIViewController {
         let ostrich = Ostrich(name: "鸵鸟")
 //        ostrich.fly()
         ostrich.run()
+        
+        let ui = UserInterface()
+        ui.show()
+        
+        let userInterfaceClass = UserInterfaceClass()
+        userInterfaceClass.show()
     }
 }
