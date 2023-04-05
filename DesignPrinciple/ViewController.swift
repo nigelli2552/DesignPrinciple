@@ -26,11 +26,18 @@ class ViewController: UIViewController {
         let ostrich = Ostrich(name: "鸵鸟")
 //        ostrich.fly()
         ostrich.run()
-        
+
         let ui = UserInterface()
         ui.show()
-        
+
         let userInterfaceClass = UserInterfaceClass()
         userInterfaceClass.show()
+
+        let customer = Customer(name: "老李")
+        customer.shopping(store: FoodStore(), count: 7)
+        customer.shopping(store: AppStore(), count: 3)
+
+        let boss = Boss(name: "老李")
+        boss.dailyWork()
     }
 }

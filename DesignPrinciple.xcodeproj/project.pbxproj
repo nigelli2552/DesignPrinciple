@@ -17,6 +17,8 @@
 		26F271F529DD1C7F003B573D /* 里氏替换原则.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F271F429DD1C7F003B573D /* 里氏替换原则.swift */; };
 		26F271F729DD2B07003B573D /* 单一职责原则.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F271F629DD2B07003B573D /* 单一职责原则.swift */; };
 		26F271F929DD3133003B573D /* 接口隔离原则.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F271F829DD3133003B573D /* 接口隔离原则.swift */; };
+		26F271FB29DD5D3A003B573D /* 依赖倒置原则.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F271FA29DD5D3A003B573D /* 依赖倒置原则.swift */; };
+		26F271FD29DD62E0003B573D /* 迪米特原则.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F271FC29DD62E0003B573D /* 迪米特原则.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		26F271F429DD1C7F003B573D /* 里氏替换原则.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "里氏替换原则.swift"; sourceTree = "<group>"; };
 		26F271F629DD2B07003B573D /* 单一职责原则.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "单一职责原则.swift"; sourceTree = "<group>"; };
 		26F271F829DD3133003B573D /* 接口隔离原则.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "接口隔离原则.swift"; sourceTree = "<group>"; };
+		26F271FA29DD5D3A003B573D /* 依赖倒置原则.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "依赖倒置原则.swift"; sourceTree = "<group>"; };
+		26F271FC29DD62E0003B573D /* 迪米特原则.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "迪米特原则.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 				26F271F429DD1C7F003B573D /* 里氏替换原则.swift */,
 				26F271F629DD2B07003B573D /* 单一职责原则.swift */,
 				26F271F829DD3133003B573D /* 接口隔离原则.swift */,
+				26F271FA29DD5D3A003B573D /* 依赖倒置原则.swift */,
+				26F271FC29DD62E0003B573D /* 迪米特原则.swift */,
 			);
 			path = DesignPrinciple;
 			sourceTree = "<group>";
@@ -152,10 +158,12 @@
 			files = (
 				26F271F929DD3133003B573D /* 接口隔离原则.swift in Sources */,
 				26F271F529DD1C7F003B573D /* 里氏替换原则.swift in Sources */,
+				26F271FB29DD5D3A003B573D /* 依赖倒置原则.swift in Sources */,
 				26A108D529DC700800E5FECE /* ViewController.swift in Sources */,
 				26A108D129DC700800E5FECE /* AppDelegate.swift in Sources */,
 				26A108E529DC734200E5FECE /* 开闭原则.swift in Sources */,
 				26A108D329DC700800E5FECE /* SceneDelegate.swift in Sources */,
+				26F271FD29DD62E0003B573D /* 迪米特原则.swift in Sources */,
 				26F271F729DD2B07003B573D /* 单一职责原则.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
