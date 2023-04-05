@@ -39,5 +39,17 @@ class ViewController: UIViewController {
 
         let boss = Boss(name: "老李")
         boss.dailyWork()
+        
+//        let tim = MathTeacher(name: "Tim")
+//        tim.teach()
+//
+//        let kate = EnglishTeacher(name: "Kate")
+//        kate.teach()
+        
+        let tim = Teacher(name: "Tim", subject: "数学")
+        tim.teach()
+        
+        let kate = Teacher(name: "Kate", subject: "英语")
+        kate.teach()
     }
 }
